@@ -61,3 +61,14 @@ body{
     background-color: aquamarine;
     color: black;
 }
+
+#livelli{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

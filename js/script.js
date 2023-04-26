@@ -1,4 +1,6 @@
 //prendere id bottone, contenitore e quadrato
+const difficolta = document.getElementById("livelli").value
+console.log(difficolta)
 
 const contenitore = document.querySelector(".container")
 const btn = document.getElementById("play")
