@@ -11,6 +11,13 @@ btn.addEventListener("click", function(){
     contenitore.innerHTML += quadratoHtml
  }
 
+//la cella si colora di azzurro
+// evento click sul quadrato nel quale andiamo a mettere in evidenza con
+//toggle una classe clicked con background color azzurro
+// necessario ciclare su quadrato.lenght per estrapolare ogni singolo elemento dell'array
+// quato perche prima li avevamo selezionati tutti, e l'evento click funziona sul singolo elemento
+ 
+
 const quadrato = document.querySelectorAll(".square")
 for (let i = 0; i < quadrato.length; i++) {
     const quadratoEl = quadrato[i];
@@ -28,8 +35,5 @@ for (let i = 0; i < quadrato.length; i++) {
 
 })
 
-//la cella si colora di azzurro
-// evento click sul quadrato nel quale andiamo a mettere in evidenza con
-//toggle una classe clicked con background color azzurro
- 
+
 
