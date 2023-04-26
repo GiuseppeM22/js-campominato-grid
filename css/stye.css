@@ -46,11 +46,17 @@ body{
     padding: 0;
 }
 
-.square{
+#square{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: aquamarine;
 }
